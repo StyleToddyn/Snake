@@ -1,8 +1,5 @@
-# React + Vite
+A ideia de um jogo clássico da cobrinha feito em React + Vite 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O objetivo do jogo é controlar a cobra para comer a comida que aparece aleatoriamente no grid. A cada vez que a cobra come a comida, ela cresce e a pontuação aumenta. O jogo termina se a cobra colidir com as bordas do grid ou com seu próprio corpo.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O jogo é implementado usando React e hooks como useState, useEffect e useRef. A cobra é representada por um array de segmentos, e a comida é um objeto com coordenadas x e y. O jogo é atualizado a cada 100ms, e a direção da cobra é controlada pelas teclas de seta do teclado.
